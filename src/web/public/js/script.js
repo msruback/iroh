@@ -4,7 +4,7 @@ window.onload = function(){
 function Iroh(){
 	this.initFirebase();
 	this.signInButton = document.getElementById('sign-in')
-	this.signInButton.addEventListener('click', this.signIn.bind(this))
+	this.signInButton.addEventListener('click', this.signIn())
 }
 Iroh.initFirebase = function(){
 	this.auth = firebase.auth();
@@ -15,7 +15,7 @@ Iroh.initFirebase = function(){
 }
 Iroh.signIn = function(){
 	var provider = new firebase.auth.GoogleAuthProvider();
-	this.auth.signInwithPopup(provider)
+	this.auth.signInWithPopup(provider)
 }
 Iroh.signout = function(){
 	this.auth.signOut()

@@ -9,6 +9,19 @@
   <body>
   	<button hidden id ="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text-white"></button>
 	  <!-- update the version number as needed -->
+	  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+		<script>
+	  	// Initialize Firebase
+	  	var config = {
+	    		apiKey: "",
+	    		authDomain: "iroh-c159b.firebaseapp.com",
+	    		databaseURL: "https://iroh-c159b.firebaseio.com",
+	    		projectId: "iroh-c159b",
+	    		storageBucket: "iroh-c159b.appspot.com",
+	    		messagingSenderId: "747454468018"
+	  	};
+	  firebase.initializeApp(config);
+	</script>
     <script defer src="/__/firebase/4.12.1/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/4.12.1/firebase-auth.js"></script>
@@ -18,6 +31,6 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
   	<script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
-    <script src="/js/script.js></script>
+    <script src="./js/script.js></script>
   </body>
 </html>
