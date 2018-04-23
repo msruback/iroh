@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Iroh Tea Master</title>
 	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
-  </head>
-  <body>
-  	<div>
-		<form>
-			Username:<br>
-			<input id="username" type="text" name="username"><br>
-			Password:<br>
-			<input id="password" type="password" name="password"><br>
-			<input type="submit" name="login" value="Login">
-		</form>
-	</div>
-	  <!-- update the version number as needed -->
-	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+</head>
+<body>
+	<nav class="nav-extended">
+  		<div class="nav-wrapper green">
+			<a href="#" class="brand-logo center">CloverBun</a>
+			<a  href="#" data-activates="slide-out" data-target="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+		</div>
+  	</nav>
+	<ul class="side-nav" id="slide-out">
+		<li><a href="/tea">Teas</a></li>
+		<li><a href="/vessels">Vessels</a></li>
+	</ul>
+
+ <!-- update the version number as needed -->
+	 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 	<script src="./js/firebaseinit.js"></script>
     <script defer src="/__/firebase/4.12.1/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -28,22 +30,6 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
   	<script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
-    <script>
-		redirect = function(){
-			if(firebase.User!=null){
-				window.location = "https://iroh.cloverbun.net/home";
-			}
-		}
-		login = function(){
-			username = document.getElementById("username").textContent;
-			password = document.getElementById("password").textContent;
-			firebase.auth().signInWithEmailAndPassword(username, password)
-				.catch(function(error){
-					//handle error here
-				});
-			window.location = "https://iroh.cloverbun.net/home";
-		}
-		redirect();
-	</script>
-  </body>
+    <script src="./js/script.js></script>
+</body>
 </html>
