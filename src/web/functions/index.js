@@ -12,7 +12,8 @@ exports.setUpUser = functions.auth.user().onCreate((user) => {
 	const docRef = admin.firestore().doc('users/'+uid);
 	
 	return docRef.set({
-		email : email
+		email : email,
+		isAdmin : false
 	});
 });
 
