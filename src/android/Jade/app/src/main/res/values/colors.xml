@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#558B6E</color>
+    <color name="colorPrimaryDark">#426b55</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="puerh">#600047</color>
+    <color name="black">#9E0059</color>
+    <color name="oolong">#2D728F</color>
+    <color name="green">#218380</color>
+    <color name="white">#FBB13C</color>
+    <color name="red">#931621</color>
+</resources>

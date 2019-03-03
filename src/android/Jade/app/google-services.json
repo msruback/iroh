@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "747454468018",
+    "firebase_url": "https://iroh-c159b.firebaseio.com",
+    "project_id": "iroh-c159b",
+    "storage_bucket": "iroh-c159b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747454468018:android:80120e60819a3f35",
+        "android_client_info": {
+          "package_name": "com.mattrubacky.jade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747454468018-iaa1n4iv663bp3rm7qh8r6c79q5co19i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLZJIMCjyA2IeWWfT-bRimzbYEgo7odKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
