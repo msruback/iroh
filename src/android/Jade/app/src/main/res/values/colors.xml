@@ -2,12 +2,41 @@
 <resources>
     <color name="colorPrimary">#558B6E</color>
     <color name="colorPrimaryDark">#426b55</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryLight">#5F9B7B</color>
+    <color name="colorAccent">#9191e9</color>
 
+    <color name="puerhDark">#470034</color>
     <color name="puerh">#600047</color>
+    <color name="puerhLight">#93006D</color>
+    <color name="puerhAccent">#d58936</color>
+
+    <color name="blackDark">#85004B</color>
     <color name="black">#9E0059</color>
+    <color name="blackLight">#B80067</color>
+    <color name="blackAccent">#B8C480</color>
+
+    <color name="oolongDark">#27637C</color>
     <color name="oolong">#2D728F</color>
+    <color name="oolongLight">#3381A2</color>
+    <color name="oolongAccent">#B63E4B</color>
+
+    <color name="greenDark">#1C6F6C</color>
     <color name="green">#218380</color>
+    <color name="greenLight">#269794</color>
+    <color name="greenAccent">#B585A8</color>
+
+    <color name="whiteDark">#FA9D0A</color>
     <color name="white">#FBB13C</color>
+    <color name="whiteLight">#FCBB55</color>
+    <color name="whiteAccent">#51A3A3</color>
+
+    <color name="herbalDark">#ff781f</color>
+    <color name="herbal">#ff8738</color>
+    <color name="herbalLight">#ff9652</color>
+    <color name="herbalAccent">#57b8ff</color>
+
+    <color name="redDark">#7D131C</color>
     <color name="red">#931621</color>
+    <color name="redLight">#A91926</color>
+    <color name="redAccent">#d58936</color>
 </resources>

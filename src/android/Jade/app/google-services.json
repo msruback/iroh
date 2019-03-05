@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "747454468018-ju3t7kosb9pgo2ocaag95uo876filvv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mattrubacky.jade",
+            "certificate_hash": "709dd9056a5f8eef8eb49977a6f1cc7c52f80b44"
+          }
+        },
+        {
           "client_id": "747454468018-iaa1n4iv663bp3rm7qh8r6c79q5co19i.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747454468018-iaa1n4iv663bp3rm7qh8r6c79q5co19i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

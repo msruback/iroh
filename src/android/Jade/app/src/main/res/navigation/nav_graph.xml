@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/startupFragment">
+    <fragment android:id="@+id/startupFragment" android:name="com.mattrubacky.jade.StartupFragment"
+              android:label="fragment_startup">
+        <action android:id="@+id/action_startupFragment_to_loginFragment" app:destination="@id/loginFragment"
+        />
+        <action android:id="@+id/action_startupFragment_to_teas" app:destination="@id/teaGroups"/>
+    </fragment>
+    <fragment android:id="@+id/loginFragment" android:name="com.mattrubacky.jade.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_teas" app:destination="@id/teaGroups"/>
+    </fragment>
+    <fragment android:id="@+id/teaGroups" android:name="com.mattrubacky.jade.TeaGroupFragment" android:label="fragment_teas"
+              tools:layout="@layout/fragment_tea_groups">
+        <action android:id="@+id/action_teaGroups_to_teasFragment" app:destination="@id/teasFragment"/>
+        <action android:id="@+id/action_teaGroups_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/teasFragment" android:name="com.mattrubacky.jade.TeasFragment"
+              android:label="fragment_teas" tools:layout="@layout/fragment_teas">
+        <action android:id="@+id/action_teasFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+</navigation>
